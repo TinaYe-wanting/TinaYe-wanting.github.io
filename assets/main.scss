@@ -3,3 +3,77 @@
 ---
 
 @import 'modern-resume-theme';
+/* Tina Ye personal site refinements */
+.header-container {
+  margin-top: 32px;
+  padding: 54px 48px;
+  background: #0b2f6b;
+  border-radius: 26px;
+  box-shadow: 0 18px 42px rgba(11, 47, 107, 0.18);
+}
+
+.header-container .row {
+  display: block;
+}
+
+.header-container .header-left {
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+.header-container .header-right {
+  display: none;
+}
+
+.header-container h1,
+.header-container h2 {
+  color: #ffffff;
+}
+
+.header-container h2 {
+  font-weight: 400;
+}
+
+.header-container .header-left > p {
+  margin: 28px 0 0;
+  text-align: center;
+}
+
+.header-container .header-left > p .button {
+  display: inline-block;
+  padding: 12px 34px;
+  color: #0b2f6b;
+  background: #ffffff;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.container > h3 {
+  color: #0b2f6b;
+}
+
+.list-container .layout {
+  margin: 20px 0;
+  padding: 26px 24px;
+  background: #f4f7fc;
+  border: 1px solid #dce6f4;
+  border-left: 6px solid #0b2f6b;
+  border-radius: 18px;
+}
+
+.list-container .layout .details h4 {
+  color: #0b2f6b;
+}
+
+@media (max-width: 767px) {
+  .header-container {
+    padding: 38px 24px;
+    border-radius: 20px;
+  }
+
+  .list-container .layout {
+    padding: 20px 18px;
+  }
+}

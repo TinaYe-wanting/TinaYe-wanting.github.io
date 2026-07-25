@@ -38,9 +38,9 @@
 - [1] GitHub Pages 已成功发布。
 - [1] GitHub Pages 链接可在无痕窗口打开。
 - [ ] README.md 和 report/final-report.md 均记录了相同的 Pages 链接。
-- [ ] 已保存桌面端首页截图：screenshots/homepage-desktop.png。
-- [ ] 已保存手机端首页截图：screenshots/homepage-mobile.png。
-- [ ] 已保存 Pages 公开页面或部署成功截图：screenshots/github-pages.png。
-- [ ] 已保存完成后的 Checklist 截图：screenshots/checklist.png。
+- [1] 已保存桌面端首页截图：screenshots/homepage-desktop.png。
+- [1] 已保存手机端首页截图：screenshots/homepage-mobile.png。
+- [1] 已保存 Pages 公开页面或部署成功截图：screenshots/github-pages.png。
+- [1] 已保存完成后的 Checklist 截图：screenshots/checklist.png。
 - [ ] report/final-report.md 已完成。
 - [ ] TA-Claw 已预览提交内容、完成两次确认，并显示 `Submitted successfully`。

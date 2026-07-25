@@ -26,7 +26,7 @@
 
 ## 4. 工程与过程验收
 
-- [ ] README.md 已写明项目名称、模板来源、主要修改内容、GitHub Pages 链接和隐私说明。
+- [1] README.md 已写明项目名称、模板来源、主要修改内容、GitHub Pages 链接和隐私说明。
 - [1] docs/prd.md 已完成，且与最终网站一致。
 - [1] docs/design.md 已完成，且与最终网站一致。
 - [1] docs/checklist.md 已完成。
@@ -37,10 +37,10 @@
 
 - [1] GitHub Pages 已成功发布。
 - [1] GitHub Pages 链接可在无痕窗口打开。
-- [ ] README.md 和 report/final-report.md 均记录了相同的 Pages 链接。
+- [1] README.md 和 report/final-report.md 均记录了相同的 Pages 链接。
 - [1] 已保存桌面端首页截图：screenshots/homepage-desktop.png。
 - [1] 已保存手机端首页截图：screenshots/homepage-mobile.png。
 - [1] 已保存 Pages 公开页面或部署成功截图：screenshots/github-pages.png。
 - [1] 已保存完成后的 Checklist 截图：screenshots/checklist.png。
-- [ ] report/final-report.md 已完成。
+- [1] report/final-report.md 已完成。
 - [ ] TA-Claw 已预览提交内容、完成两次确认，并显示 `Submitted successfully`。

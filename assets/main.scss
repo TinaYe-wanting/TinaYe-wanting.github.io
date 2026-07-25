@@ -3,16 +3,37 @@
 ---
 
 @import 'modern-resume-theme';
-/* Tina Ye personal site refinements */
+/* Tina Ye personal site: palette inspired by the supplied reference
+   blue #4167B1 | pale blue #DEF0F9 | charcoal #1B1F23 */
+body {
+  color: #1b1f23;
+  background: #ffffff;
+}
+
 .header-container {
-  margin-top: 32px;
-  padding: 54px 48px;
-  background: #0b2f6b;
-  border-radius: 26px;
-  box-shadow: 0 18px 42px rgba(11, 47, 107, 0.18);
+  position: relative;
+  overflow: hidden;
+  margin-top: 48px;
+  padding: 64px 68px;
+  background: #def0f9;
+  border-radius: 24px;
+}
+
+.header-container::before {
+  position: absolute;
+  top: -42px;
+  right: 9%;
+  width: 150px;
+  height: 150px;
+  content: "";
+  background: #4167b1;
+  border-radius: 28px;
+  opacity: 0.95;
 }
 
 .header-container .row {
+  position: relative;
+  z-index: 1;
   display: block;
 }
 
@@ -26,54 +47,129 @@
   display: none;
 }
 
-.header-container h1,
-.header-container h2 {
-  color: #ffffff;
+.header-container h1 {
+  color: #4167b1;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .header-container h2 {
+  max-width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #1b1f23;
   font-weight: 400;
 }
 
 .header-container .header-left > p {
-  margin: 28px 0 0;
+  margin: 30px 0 0;
   text-align: center;
 }
 
 .header-container .header-left > p .button {
   display: inline-block;
-  padding: 12px 34px;
-  color: #0b2f6b;
-  background: #ffffff;
-  border-radius: 999px;
+  padding: 13px 36px;
+  color: #ffffff;
+  background: #4167b1;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(65, 103, 177, 0.22);
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
+}
+
+.header-container .header-left > p .button:hover,
+.header-container .header-left > p .button:focus {
+  color: #ffffff;
+  background: #315797;
 }
 
 .container > h3 {
-  color: #0b2f6b;
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 0 0 10px;
+  color: #4167b1;
+  border-bottom: 3px solid #4167b1;
+  font-weight: 500;
+  text-align: left;
 }
 
-.list-container .layout {
-  margin: 20px 0;
-  padding: 26px 24px;
-  background: #f4f7fc;
-  border: 1px solid #dce6f4;
-  border-left: 6px solid #0b2f6b;
+.text-container .row {
+  margin: 0;
+  padding: 26px 28px;
+  background: #def0f9;
   border-radius: 18px;
 }
 
+.text-container .col-md-12 {
+  padding: 0;
+}
+
+.list-container .layout {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(0, 2fr);
+  gap: 34px;
+  margin: 20px 0;
+  padding: 28px 30px;
+  background: #ffffff;
+  border: 1px solid #d8e3f3;
+  border-left: 7px solid #4167b1;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(27, 31, 35, 0.06);
+}
+
+.list-container .layout .details,
+.list-container .layout .content {
+  width: auto;
+  padding: 0;
+}
+
+.list-container .layout .details {
+  justify-content: flex-start;
+}
+
 .list-container .layout .details h4 {
-  color: #0b2f6b;
+  color: #4167b1;
+}
+
+.list-container .layout .content p {
+  margin: 0;
+}
+
+.list-container .layout .link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4167b1;
+  font-weight: 500;
 }
 
 @media (max-width: 767px) {
   .header-container {
-    padding: 38px 24px;
+    margin-top: 28px;
+    padding: 44px 24px;
     border-radius: 20px;
   }
 
+  .header-container::before {
+    top: -54px;
+    right: -32px;
+    width: 122px;
+    height: 122px;
+  }
+
+  .container > h3 {
+    font-size: 2.3rem;
+  }
+
+  .text-container .row,
   .list-container .layout {
-    padding: 20px 18px;
+    padding: 22px 20px;
+  }
+
+  .list-container .layout {
+    display: block;
+  }
+
+  .list-container .layout .details {
+    margin-bottom: 16px;
   }
 }

@@ -123,6 +123,7 @@ body {
 .list-container .layout {
   display: grid;
   grid-template-columns: minmax(180px, 0.8fr) minmax(0, 2fr);
+  grid-template-areas: "details content";
   gap: 34px;
   margin: 20px 0;
   padding: 28px 30px;
@@ -140,7 +141,13 @@ body {
 }
 
 .list-container .layout .details {
+  grid-area: details;
   justify-content: flex-start;
+}
+
+.list-container .layout .content {
+  grid-area: content;
+  align-self: center;
 }
 
 .list-container .layout .details h4 {

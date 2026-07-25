@@ -127,11 +127,24 @@ body {
   gap: 34px;
   margin: 20px 0;
   padding: 28px 30px;
-  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(112deg, #ffffff 0%, #ffffff 66%, #def0f9 66%, #def0f9 100%);
   border: 1px solid #d8e3f3;
   border-left: 7px solid #4167b1;
   border-radius: 18px;
   box-shadow: 0 10px 24px rgba(27, 31, 35, 0.06);
+}
+
+.list-container .layout::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 132px;
+  height: 92px;
+  content: "";
+  background: #4167b1;
+  border-radius: 0 0 0 42px;
 }
 
 .list-container .layout .details,
@@ -142,11 +155,21 @@ body {
 
 .list-container .layout .details {
   grid-area: details;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  background: #def0f9;
+  border-radius: 16px;
   justify-content: flex-start;
 }
 
 .list-container .layout .content {
   grid-area: content;
+  position: relative;
+  z-index: 1;
+  padding: 20px 24px;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
   align-self: center;
 }
 
@@ -190,9 +213,20 @@ body {
 
   .list-container .layout {
     display: block;
+    background: #ffffff;
   }
 
   .list-container .layout .details {
     margin-bottom: 16px;
+  }
+
+  .list-container .layout .content {
+    padding: 18px;
+  }
+
+  .list-container .layout::after {
+    width: 90px;
+    height: 64px;
+    border-radius: 0 0 0 30px;
   }
 }

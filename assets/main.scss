@@ -77,6 +77,22 @@ body {
   letter-spacing: 0.14em;
 }
 
+/* Override the template's icon-button treatment for the textual GO button. */
+.header-container .header-left > p .button.button--sacnite {
+  width: auto;
+  height: auto;
+  min-width: 120px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.header-container .header-left > p .button.button--sacnite::before {
+  display: none;
+}
+
 .header-container .header-left > p .button:hover,
 .header-container .header-left > p .button:focus {
   color: #ffffff;

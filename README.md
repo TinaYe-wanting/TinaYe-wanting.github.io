@@ -26,3 +26,11 @@ https://tinaye-wanting.github.io/
 docs/          PRD、Design、Checklist
 report/        最终报告
 screenshots/   验收截图
+
+## 本地预览
+本项目使用 Jekyll 和 GitHub Pages。若需本地运行，请安装 Ruby、Bundler 与 Jekyll 后执行：
+bundle install
+bundle exec jekyll serve
+
+##隐私说明
+仓库不包含密码、API Key、Token、.env 文件、电话、身份证号或其他不应公开的个人信息。

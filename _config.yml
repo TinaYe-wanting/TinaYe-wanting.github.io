@@ -2,7 +2,7 @@ repository: TinaYe-wanting/TinaYe-wanting.github.io
 version: 2
 
 name: Tina Ye
-title: 深圳大学信息管理与信息系统专业学生｜实习求职中
+title: 深圳大学|信息管理与信息系统｜实习求职中
 
 darkmode: false
 
@@ -10,9 +10,9 @@ github_username: TinaYe-wanting
 
 about_title: About
 about_content: |
-  你好，我是 Tina Ye，深圳大学信息管理与信息系统专业学生，关注 AI 工具应用与数字化实践。
+  Hello，这里是Tina Ye。一名深圳大学信息管理与信息系统专业的学生，关注 AI 工具应用与数字化实践。
 
-  我目前担任院学生会团委义工部部长，积极参与创新创业与视频创作赛事，希望寻找能够持续学习、实践与成长的实习机会。
+  目前担任院学生会团委义工部部长，积极参与创新创业与视频创作赛事，希望寻找能够持续学习、实践与成长的实习机会。
 
 content:
   - title: Skills
@@ -51,7 +51,7 @@ content:
         sub_title: 信息管理与信息系统专业
         caption: 2025 至今
 
-  - title: Awards
+  - title: Conpetiton
     layout: list
     content:
       - layout: left
@@ -59,7 +59,6 @@ content:
         sub_title: 国际区域赛铜奖
       - layout: left
         title: APEC 视频大赛
-        sub_title: 参赛经历
 
   - title: Contact
     layout: text
